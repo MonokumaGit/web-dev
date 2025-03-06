@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>  
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        
+        }
+        .title {
+            color: #000;
+            margin-bottom: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+
+        .icon-date {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+        }
+
+        .promo-icon {
+            max-width: 64px; 
+        }
+
+        .deadline {
+            color: #ff0000;
+            font-weight: bold;
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .discount-box {
+            border: 2px dashed #ff0000; 
+            border-radius: 15px; 
+            padding: 25px 25px;
+            text-align: center;
+        }
+
+        .discount-text {
+            color: #000;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .percent {
+            color: #ff0000;
+            font-size: 42px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Левая часть -->
+        <div>
+            <h2 class="title">Распродажа стайлеров</h2>
+            
+            <!-- Блок с иконкой и датой -->
+            <div class="icon-date">
+                <img src="picture/bb.png" alt="Акция" class="promo-icon">
+                <p class="deadline">Действует до 06 декабря</p>
+            </div>
+        </div>
+
+        <!-- Правая часть (пунктирная рамка) -->
+        <div class="discount-box">
+            <div class="discount-text">Скидки до</div>
+            <div class="percent">12%</div>
+        </div>
+    </div>
+</body>
+</html>
